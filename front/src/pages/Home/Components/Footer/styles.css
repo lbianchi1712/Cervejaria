@@ -1,0 +1,33 @@
+.maioridade > .opcoes {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 46px 80px;
+    align-items: center;
+}
+
+.btn-footer {
+    border: 0px;
+    border-radius: 30px;
+    width: 218px;
+    height: 91px;
+    background: #000000;
+    color: #EFEFEF;
+    font-family: 'Bungee', Arial, Helvetica, sans-serif;
+    font-size: 60px;
+}
+
+.btn-footer:hover {
+    background: #242424;
+}
+
+@media screen and (max-width: 610px) {
+    .maioridade > .opcoes {
+        justify-content: center;
+    }
+
+    .maioridade > .opcoes > .btnnao{
+        margin-top: 12px;
+    }
+}

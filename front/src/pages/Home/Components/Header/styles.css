@@ -1,0 +1,14 @@
+.header {
+    width: 100%;
+    height: 203;
+    background-color: #fda251;
+}
+
+.logo {
+    width: 228px;
+    height: 114px;
+    background: url('../../../../assets/3logoCervejaria-removebg-preview.png') no-repeat;
+    background-size: contain;
+    background-position: center;
+    margin: 0 auto;
+}

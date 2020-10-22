@@ -1,0 +1,64 @@
+.login {
+    display: flex;
+    width: 100%;
+    height: 523px;
+    align-items: center;
+    text-align: center;
+    margin-top: 87px;
+}
+
+.login .formulario-container {
+    display: flex;
+    flex-direction: column;
+    width: 658px;
+    height: 423px;
+    margin: 0 auto;
+    background-color: #fff;
+    border: 2px solid #000;
+    border-radius: 30px;
+}
+
+.login .formulario-container #login-titulo {
+    margin-top: 67px;
+    font-size: 60px;
+    line-height: 20px;
+    font-family: 'Coda', Arial, Helvetica, sans-serif;
+}
+
+.login .formulario-container .login-form {
+    display: flex;
+    flex-direction: column;
+    margin: 47px 44px;
+}
+
+.login .formulario-container .login-form #login-email, #login-senha {
+    background: #FFEFEF;
+    border: 4px solid #E0E0E0;
+    box-sizing: border-box;
+    border-radius: 30px;
+    height: 47px;
+    text-align: center;
+}
+
+.login .formulario-container .login-form #login-senha {
+    margin-top: 21px;
+    margin-bottom: 38px;
+}
+
+.login .formulario-container .login-form .login-entrar {
+    height: 59px;
+    background: #00BB29;
+    border: 4px solid #E0E0E0;
+    box-sizing: border-box;
+    border-radius: 30px;
+    font-family: 'Chathura', Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    line-height: 20px;
+    color: #000;
+}
+
+.login .formulario-container .login-form .login-entrar:hover {
+    background-color: #00BB00;
+    font-size: 55px;
+    cursor: pointer;
+}

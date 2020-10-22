@@ -1,0 +1,71 @@
+.products-list {
+    margin-top: 90px;
+    display: flex;
+    width: 100%;
+    list-style: none;
+    flex-direction: row;
+    padding: 64px 120px;
+    justify-content: flex-start;
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+.products-list li {
+    width: 240px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 24px;
+    margin-right: 10px;
+    margin-left: 10px;
+    background-color: #fff;
+    -webkit-animation: maioridade 1s ease-in-out;
+    -moz-animation: maioridade 1s ease-in-out;
+    -o-animation: maioridade 1s ease-in-out;
+    animation: maioridade 1s ease-in-out;
+}
+
+.products-list li header {
+    height: 305px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #fff;
+}
+
+.products-list li strong, #label_descricao, span {
+    line-height: 20px;
+    font-family: 'Candal', Arial, Helvetica, sans-serif;
+    background-color: #fff;
+    color: #000;
+}
+
+.products-list li strong, #label_descricao {
+    font-size: 15px;
+}
+
+.products-list li span {
+    height: 50px;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.products-list li .products-button {
+    height: 60px;
+    border: 0;
+    background-color: #039900;
+    color: #fff;
+    font-family: 'Candal', Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.products-list li .products-button:hover {
+    background-color: #008000;
+    cursor: pointer;
+}
+
+.products-list li:hover {
+    width: 245px;
+}

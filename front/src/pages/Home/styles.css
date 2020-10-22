@@ -1,0 +1,48 @@
+.home-container {
+    display: flex;
+    width: 100%;
+    height: 523px;
+    background: #fda251 url('../../assets/homeFundo.png') no-repeat;
+    background-size: cover;
+    align-items: center;
+    text-align: center;
+}
+
+.maioridade {
+    width: 684px;
+    height: 380px;
+    margin: 0 auto;
+    background: rgba(239, 239, 239, 0.7);
+    border-radius: 30px;
+    animation: 5s ease 1s infinite alternate;
+    -webkit-animation: maioridade 1s ease-in-out;
+    -moz-animation: maioridade 1s ease-in-out;
+    -o-animation: maioridade 1s ease-in-out;
+    animation: maioridade 1s ease-in-out;
+}
+
+@media screen and (max-width: 610px) {
+    .maioridade {
+        width: 100%;
+        height: 500px;
+    }
+
+    .home-container {
+        width: 100%;
+        height: 900px;
+    }
+}
+
+@media screen and (max-width: 510px) {
+    .maioridade {
+        width: 100%;
+        height: 560px;
+    }
+}
+
+@media screen and (max-width: 410px) {
+    .maioridade {
+        width: 100%;
+        height: 610px;
+    }
+}

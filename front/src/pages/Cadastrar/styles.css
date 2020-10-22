@@ -1,0 +1,62 @@
+.cadastro {
+    display: flex;
+    width: 100%;
+    height: 523px;
+    align-items: center;
+    text-align: center;
+    margin-top: 87px;
+}
+
+.cadastro .formulario-container {
+    display: flex;
+    flex-direction: column;
+    width: 658px;
+    height: 423px;
+    margin: 0 auto;
+    background-color: #fff;
+    border: 2px solid #000;
+    border-radius: 30px;
+}
+
+.cadastro .formulario-container #cadastro-titulo {
+    margin-top: 37px;
+    font-size: 60px;
+    line-height: 20px;
+    font-family: 'Coda', Arial, Helvetica, sans-serif;
+}
+
+.cadastro .formulario-container .cadastro-form {
+    display: flex;
+    flex-direction: column;
+    margin: 27px 44px;
+}
+
+.cadastro .formulario-container .cadastro-form #cadastro-email, #cadastro-senha, #cadastro-nome, #cadastro-sobrenome {
+    background: #FFEFEF;
+    border: 4px solid #E0E0E0;
+    box-sizing: border-box;
+    border-radius: 30px;
+    height: 47px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.cadastro .formulario-container .cadastro-form .cadastro-entrar {
+    height: 59px;
+    background: #00BB29;
+    border: 4px solid #E0E0E0;
+    border-radius: 30px;
+    font-family: 'Chathura', Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    color: #000;
+    margin-top: 27px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cadastro .formulario-container .cadastro-form .cadastro-entrar:hover {
+    background-color: #00BB00;
+    font-size: 45px;
+    cursor: pointer;
+}

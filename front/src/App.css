@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bungee&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bubbler+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bowlby+One+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Candal&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Coda&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chathura&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+  }
+
+html, body, #root {
+  min-height: 100%;
+}
+
+body {
+  background: #ff4533;
+  -webkit-font-smoothing: antialiased !important;
+}
+
+body, input, button {
+  font-family: 'Lato', Arial, Helvetica, sans-serif;
+  font-size: 14px;
+}
+
+@-webkit-keyframes maioridade {
+  0% { opacity: 0; }
+  100% { opacity: 1; } 
+}
+
+@-moz-keyframes maioridade {
+  0% { opacity: 0;}
+  100% { opacity: 1; }
+}
+
+@-o-keyframes maioridade {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+  
+@keyframes maioridade {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
