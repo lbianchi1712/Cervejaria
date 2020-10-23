@@ -14,3 +14,6 @@ Pronto, seu sistema está no ar!
 
 Obs: você deve ter o node e o npm instalados em sua maquina
 Obs: Banco de dados em nuvem, está aberto no momento para qualquer maquina executar ele
+
+
+https://www.loom.com/share/761e629937bb430f9cad22d80bd92938
